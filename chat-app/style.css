@@ -1,3 +1,50 @@
+
+
+
+body{
+
+    background:hsl(0, 0%, 100%);
+}
+
+
+
+
+
 h1, p{
+
     text-align: center;
 }
+
+.background-purple{
+    top: -199px;
+    position: relative;
+    width: 300px;
+    z-index: -1;
+    height:700px;
+    background: hsl(264, 100%, 61%);
+    background: linear-gradient(135deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0px 0px 250px 250px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.background-white{
+    top: 5%;
+    left: 70%;
+    position: absolute;
+    width: 400px;
+    z-index: -1;
+    height:700px;
+    background:#F7F5FA;
+    border-radius: 250px 250px 0px 0px;
+}
+
+h1{
+    color:#3F254F;
+}
+
+
